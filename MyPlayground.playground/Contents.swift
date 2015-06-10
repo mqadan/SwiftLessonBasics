@@ -6,4 +6,5 @@ var str : String = "Hello "
 
 let modernProgrammingLanguage: String = "Swift"
 
-var greeting: String  = str + modernProgrammingLanguage
+var greeting = "\(str) \(modernProgrammingLanguage)"
+print("To build an iPhone app, we need to learn \(modernProgrammingLanguage)")
