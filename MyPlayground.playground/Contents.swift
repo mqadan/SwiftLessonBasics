@@ -2,4 +2,8 @@
 
 import UIKit
 
-var str = "Hello Playground"
+var str : String = "Hello "
+
+let modernProgrammingLanguage: String = "Swift"
+
+var greeting: String  = str + modernProgrammingLanguage
